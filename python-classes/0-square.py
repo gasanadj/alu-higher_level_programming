@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-""" First Class in Python """
+""" Write an empty class Square that defines a square
+"""
+
+
 class Square:
-    """Class square which contains square """
+    """ An empty class that defines a square"""
     pass
