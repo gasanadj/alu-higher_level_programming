@@ -4,11 +4,11 @@ class Rectangle {
     height;
     constructor (w,h) {
         if (w <= 0 || h <= 0 || w === undefined || h === undefined) {
-            return;
+            return {};
         }
         this.width = w;
         this.height = h;
     }
 }
 
-module.exports = Rectangle;
+module.exports = Rectangle
