@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require('request');
 const baseUrl = process.argv[2];
 const fs = require('fs');

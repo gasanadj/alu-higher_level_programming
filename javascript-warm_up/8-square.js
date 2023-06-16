@@ -12,4 +12,3 @@ if (isNaN(length)) {
     console.log(line);
   }
 }
-

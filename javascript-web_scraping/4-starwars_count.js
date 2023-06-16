@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const request = require('request');
 const baseUrl = process.argv[2];
 request(baseUrl, function (error, response) {
@@ -6,7 +7,7 @@ request(baseUrl, function (error, response) {
   const data = result.results;
   let count = 0;
   data.forEach((item) => {
-    item.characters.forEach(charUrl => {
+    item.characters.forEach((charUrl) => {
       if (charUrl.includes('18')) {
         count++;
       }
